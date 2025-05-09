@@ -1,0 +1,25 @@
+A Chat Model in LangChain is a component designed to communicate in a structred way with LLMs like 
+GPT-4, Hugging face and Claude sonnet.
+
+Why use LangChain Chat Models ?
+
+    1. Consistent Workflow : LangChain's chat model unify different APIs, saving you from managing 
+    each one's unique setup and quirks.
+
+    2. Easy switching between LLMs : Want to switch from one LLM to another ? LangChain's chat models makes 
+    it simple without code rewrites.
+
+    3. Context Management : Working with LangChain's chat model help manage conversation history, letting you
+    keep context across multiple interactions seamlessly.
+
+    4. Efficient Chaining : You can connect multiple LLM calls and tasks in one structured pipeline. Which is 
+    difficult to setup manually.
+
+    5. Scalabiltiy : As projects grow, LangChain's interface supports more complex workflows, letting you focus on
+    features not on API Management.
+
+Types of Message in LangChain 
+
+    1. SystemMessage : Define the AI's role and sets the context for the conversation.
+    2. HumanMessage : Represents user input or questions directed to AI.
+    3. AIMessage : Contains the AI's responses based on previous messages.
